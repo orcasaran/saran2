@@ -1,0 +1,15 @@
+/* Excer Displaying the random number ,
+Saran S, Aug 26, 2014 */
+
+#include <stdio.h>
+
+int main(void)
+{
+	int c,x;
+	for (c=0;c<=99;c++)
+	{
+		x=(c*x+2) % 99;
+		printf(" %i", x);
+		
+	}
+}
