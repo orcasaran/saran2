@@ -1,0 +1,24 @@
+/* c5exe1 Asking the User for Input,
+ Saran S, 29, Aug, 2014 */
+ 
+ #include <stdio.h>
+ 
+ int main(void)
+ {
+ 	int n, triangularnumber, number;
+ 	
+ 	printf("What triangular number you want :"  );
+ 	scanf("%i", &number);
+ 	
+ 	triangularnumber = 0;
+ 	
+ 	for(n=1; n<=number; ++n)
+ 	
+ 	triangularnumber +=n;
+ 	
+ 	printf("Triangularnumber %i is %i\n", number, triangularnumber);
+ 	
+ 	return 0;
+ }
+ 
+ 
