@@ -1,0 +1,37 @@
+/* C6exe2, program to calculating the average set of grades and counting the number of failing test grades,
+Saran S Sep, 7, 2014 */
+
+
+#include <stdio.h>
+
+int main(void)
+
+{
+
+	int numberofgrades, i, grade;
+	int gradetotal = 0;
+	int failurecount = 0;
+	float average;
+
+	printf ("how many grades will you be entering?");
+	scanf ("%i", &numberofgrades);
+	
+	for (i = 1;i <= numberofgrades; i++)
+	{
+		printf ("enter grade #%i",i);
+		scanf("%i",&grade);
+		gradetotal = gradetotal + grade;
+
+		if (grade < 65)
+		    ++failurecount;
+	}
+	
+	average = (float) gradetoatal / numbergrades;
+
+	printf("\nngrade average = %2f\n", average);
+	printf("number of failuers = %i\n", failurecount);
+
+	return 0;
+
+}
+	

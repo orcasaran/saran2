@@ -1,0 +1,23 @@
+/* C6exe1 , program to calculating the absolute value of an integer,
+Saran S Sep, 7, 2014 */
+
+
+#include<stdio.h>
+
+int main(void)
+
+{
+
+	int number;
+	
+	printf("type in your number:");
+	scanf("%i",&number);
+
+	if(number < 0)
+		number = -number;
+
+	printf("the absolute value is %i\n",number);
+
+	return 0;
+
+}

@@ -1,0 +1,30 @@
+/* C6exe7, program to categorizing a single character entered at the terminal ,
+Saran S Sep, 7, 2014 */
+
+
+
+ #include <stdio>
+
+int main(void)
+
+{
+
+	char c;
+
+	printf("enter a single character:\n");
+	scanf("%C", &c);
+	
+	if((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'))
+	
+		printf ("Its an alphabetic character\n");
+	
+	else if (c >= '0' && c <= '9' )
+	
+		printf ("It is a digit");
+	
+	else
+	
+		printf("It's a special character\n");
+	
+	return 0;
+}
