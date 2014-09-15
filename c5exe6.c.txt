@@ -1,0 +1,19 @@
+/* c5exe6Program to introduce the while statement,
+Saran S, 08, Sep, 2014 */
+
+#include <stdio.h>
+
+int main(void)
+{
+	int count =1;
+	
+	while(count<=5)
+	{
+		printf("%i\n", count);
+		++count;
+		
+	}
+	
+	return 0;
+	
+}
