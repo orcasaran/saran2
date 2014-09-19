@@ -1,0 +1,16 @@
+/* c3exer5 program to correcting the mistake from the given program,
+Saran S, 19 sep, 2014 */
+
+#include <stdio.h>
+
+int main(void)     // in void V is in capital letter
+{                  // open brass is missing and opened by (
+
+	int sum;       // int is in capital
+	
+	sum= 25+37-19;  // semi column is missing
+	
+	printf("The answer is %i\n", sum);    // comma is missing behind the sum
+	
+	return 0;
+}

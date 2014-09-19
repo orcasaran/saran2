@@ -1,0 +1,19 @@
+/* c3exer4 Prgram to subtract the values,
+Saran S, 19 sep, 2014 */
+
+#include <stdio.h>
+
+int main(void)
+{
+	int sub, value1, value2;
+	
+	value1=15;
+	value2=83;
+	
+	sub= value1 - value2;
+	
+	printf("The subtraction of %i from %i is %i\n", value1, value2, sub);
+	
+	return 0;
+	
+}

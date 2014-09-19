@@ -1,0 +1,20 @@
+/* c3exer5 program to find the answer from the given program,
+Saran S, 19 sep, 2014 */
+
+// answer is 95........
+
+#include <stdio.h>
+
+int main(void)
+{
+	int answer, result;
+
+	answer = 100;
+	
+	result = answer-10;
+	
+	printf("The result is %i\n", result+5);
+	
+	return 0;
+		
+}
