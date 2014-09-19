@@ -1,0 +1,22 @@
+/* C4exer4 Program to Conversion of fehrenheat to celsius,
+Saran S, 19, Sep, 2014 */
+
+// Write a program that converts 27° from degrees Fahrenheit (F) to degrees Celsius
+// (C) using the following formula:
+// C = (F - 32) / 1.8 //
+ 
+#include <stdio.h>
+
+int main(void)
+{
+	int F, C;            // F means Fahrenheat and C means Celsius
+	
+	F=27;
+	
+	C=(F-32)/1.8;
+	
+	printf("The coversion of fahrenheat to celsius is %i\n", C);
+	
+	return 0;
+	
+}
