@@ -1,0 +1,29 @@
+/* c5exer3 Program to generate a table of triangular numbers with multiples of 5,
+ Saran S, 20, Sep, 2014 */
+ 
+ #include <stdio.h>
+ 
+ int main(void)
+ 
+ {
+ 	int n=0, n2=0;
+ 	
+ 	printf ("TABLE OF MULTIPLES OF 5 AND THEIR TRIANGULAR NUMBERS\n");
+	printf (" MULTIPLES OF 5      TRIANGULAR NUMBERS\n");
+	printf ("----------------     ------------------\n");
+	
+	do
+	{
+		n2=n*(n+1)/2;
+		
+		printf(" %2i                     %i\n", n, n2);
+		
+		n=n+5;
+	}
+	
+	while(n % 5 == 0, n<=50);
+	
+	return 0;
+	
+}
+ 

@@ -1,0 +1,28 @@
+/* c5exer3 Program to generate a table of factorial numbers and using the . in before the printf statement, 
+ Saran S, 20, Sep, 2014 */
+ 
+ #include <stdio.h>
+ 
+ int main(void)
+ {
+ 	int n1=1, n2=0, factorial=1;
+ 	
+ 	printf("Factorial numbers from 1 to 10\n\n");
+ 	printf(" N          factorial number\n\n");
+ 	printf("---         -----------------");
+ 	
+ 	for(n1=1;n1<=10;n1++)
+ 	{
+ 		factorial=factorial*(n1-n2);
+ 		++n2;
+ 		factorial=factorial*n1;
+ 		
+ 		printf(" %.2i          %.i\n", n1,factorial);		// putting the . before the %2i and %i the digits are equally shown eg. 3 is shown after putting . is 03.
+ 		
+ 		
+ 		
+ 	}
+ 	
+ 	return 0;
+ 	
+ }

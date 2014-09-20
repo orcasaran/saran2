@@ -1,0 +1,21 @@
+/* c5exer9a Program to calculate the 200th triangular number using while statement,
+ Saran S, 29, Aug, 2014 */
+
+#include <stdio.h>
+
+int main(void)
+{
+	int n=1, triangularnumber=1;
+	
+	triangularnumber=0;
+	
+	while(n<=200)
+	{
+		++n;
+		triangularnumber = triangularnumber + n;
+	
+		printf("the 200th triangular number is %i\n", triangularnumber);
+	
+		return 0;
+	}
+}

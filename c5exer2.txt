@@ -1,0 +1,26 @@
+/* c5exer2 program to generate and display a table of n and n2, for integer values of n
+ranging from 1 to 10, Saran S, 19, Sep, 2014 */
+
+#include <stdio.h>
+
+int main(void)
+{
+	int n, squarevalues;
+	
+	printf("TABLE OF SQUARE VALUES\n\n");
+	printf(" n      Sum of squarevalues from 1 to n\n");
+	printf("----    --------------------------------\n");
+	
+	squarevalues = 0;
+	
+	for (n=1; n<=10; ++n)
+	{
+		squarevalues = n*n;
+		
+		printf("%2i                %i\n", n, squarevalues);
+		
+	}
+	
+	return 0;
+	
+}

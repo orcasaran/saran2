@@ -1,0 +1,32 @@
+/* c5exer7 Using Nested for Loops,
+ Saran S, 20, Sep, 2014 */
+ 
+ #include <stdio.h>
+ 
+ int main(void)
+ {
+ 	int n, triangularnumber, number, counter, counter1;
+ 	
+ 	printf("How many triangular numbers would you like\n");
+ 	scanf("%i", &counter1);
+ 	
+ 	for(counter=1; counter<=counter1; ++counter)
+ 	{
+ 	
+ 	
+ 		printf("What triangular number you want? \n");
+ 		scanf("%i", &number);
+ 	
+ 		triangularnumber = 0;
+ 	
+ 		for(n=1; n<=number; ++n)
+ 	
+ 		triangularnumber +=n;
+ 	
+ 		printf("Triangular number %i is %i\n\n", number , triangularnumber);
+ 	
+    } 
+ }    
+
+
+ 
